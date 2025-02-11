@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Movement : MonoBehaviour
 {
+    private SpriteRenderer spriteRenderer;
     private Rigidbody2D rb;
     public float jump;
     private bool Grounded;
@@ -18,6 +19,7 @@ public class Movement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        spriteRenderer = GetComponent<SpriteRenderer>();
         float movespeed = 3.0f;
         if (Input.GetKey(KeyCode.D))
         {
@@ -31,8 +33,11 @@ public class Movement : MonoBehaviour
         {
             rb.AddForce(new Vector2(rb.velocity.x, jump), ForceMode2D.Impulse);
             Grounded = false;
-        } 
-
+        }
+        if (Input.GetKey(KeyCode.A))
+            spriteRenderer.flipX = true;
+        else if (Input.GetKey(KeyCode.D))
+            spriteRenderer.flipX = false;
     }
     void OnCollisionEnter2D(Collision2D collision)
     {

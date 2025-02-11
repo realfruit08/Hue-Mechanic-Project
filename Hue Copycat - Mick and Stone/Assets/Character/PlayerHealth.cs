@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerHealth : MonoBehaviour
 {
@@ -14,10 +15,10 @@ public class PlayerHealth : MonoBehaviour
     public void Damaged(float spiked)
     {
         startingHealth -= spiked;
-        if (Health <= 0)
+        if (startingHealth <= 0)
         {
             Debug.Log("dies");
-            Destroy(gameObject);
+            SceneManager.LoadScene("Scenes/SampleScene");
         }
     }
 
