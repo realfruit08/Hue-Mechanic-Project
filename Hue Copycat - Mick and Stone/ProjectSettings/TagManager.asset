@@ -57,6 +57,9 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Spikes
+    uniqueID: 3327203107
+    locked: 0
   - name: Color Wheel
     uniqueID: 1148163029
     locked: 0
