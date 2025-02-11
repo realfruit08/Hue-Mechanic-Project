@@ -39,6 +39,21 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Background
+    uniqueID: 848654161
+    locked: 0
+  - name: Blue
+    uniqueID: 559877257
+    locked: 0
+  - name: Yellow
+    uniqueID: 1486613779
+    locked: 0
+  - name: Pink
+    uniqueID: 3912833273
+    locked: 0
+  - name: Grey
+    uniqueID: 1566442161
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
