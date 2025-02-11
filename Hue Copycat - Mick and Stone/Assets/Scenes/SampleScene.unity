@@ -3631,6 +3631,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorWheel: {fileID: 1177605137}
+  PinkBoxes: {fileID: 1405483257}
+  YellowBoxes: {fileID: 1275281833}
+  BlueBoxes: {fileID: 1889204888}
 --- !u!1 &1197619430
 GameObject:
   m_ObjectHideFlags: 0
@@ -4137,7 +4140,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1275281834}
   m_Layer: 0
-  m_Name: Yellow Boxes
+  m_Name: YellowBoxes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6030,7 +6033,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1405483258}
   m_Layer: 0
-  m_Name: Pink Boxes
+  m_Name: PinkBoxes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7142,6 +7145,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorWheel: {fileID: 1177605137}
+  PinkBoxes: {fileID: 0}
+  YellowBoxes: {fileID: 0}
+  BlueBoxes: {fileID: 0}
 --- !u!1 &1836923378
 GameObject:
   m_ObjectHideFlags: 0
@@ -7448,7 +7454,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1889204889}
   m_Layer: 0
-  m_Name: Blue boxes
+  m_Name: BlueBoxes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
