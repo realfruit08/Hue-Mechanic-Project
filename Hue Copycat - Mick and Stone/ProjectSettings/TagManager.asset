@@ -57,5 +57,8 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Color Wheel
+    uniqueID: 1148163029
+    locked: 0
   m_RenderingLayers:
   - Default
